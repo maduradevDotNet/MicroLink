@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34902.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{0B5AD3D7-15CF-4008-9B01-9EDF9912EF9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GateWay", "GateWay", "{5C455B5E-D88C-4C21-9A41-7AF801A43338}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{B3F66866-6788-43E3-8E41-5E173A096B58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C6457C88-5372-4FC8-917F-720CC67DA954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microlink.Services.CouponAPI", "Microlink.Services.CouponAPI\Microlink.Services.CouponAPI.csproj", "{8B18AAE5-0339-4DB2-BD4C-86B8B400257D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B18AAE5-0339-4DB2-BD4C-86B8B400257D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B18AAE5-0339-4DB2-BD4C-86B8B400257D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B18AAE5-0339-4DB2-BD4C-86B8B400257D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B18AAE5-0339-4DB2-BD4C-86B8B400257D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B18AAE5-0339-4DB2-BD4C-86B8B400257D} = {C6457C88-5372-4FC8-917F-720CC67DA954}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4055A6BE-97AC-4E09-B852-0D275E90DBF1}
+	EndGlobalSection
+EndGlobal
