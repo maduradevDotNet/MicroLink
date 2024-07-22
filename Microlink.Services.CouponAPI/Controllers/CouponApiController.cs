@@ -9,7 +9,7 @@ using System.Linq;
 
 namespace Microlink.Services.CouponAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Coupon")]
     [ApiController]
     public class CouponApiController : ControllerBase
     {
@@ -40,7 +40,8 @@ namespace Microlink.Services.CouponAPI.Controllers
             return _response;
         }
 
-        [HttpGet("{ID}")]
+        [HttpGet]
+        [Route("GetById/{ID}")]
         public ResponseDto Get(int ID)
         {
             try
@@ -98,7 +99,8 @@ namespace Microlink.Services.CouponAPI.Controllers
         }
 
 
-        [HttpDelete("{ID}")]
+        [HttpDelete]
+        [Route("GetById/{ID}")]
         public ResponseDto Delete(int ID)
         {
             try
